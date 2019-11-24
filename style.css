@@ -1,100 +1,105 @@
-body {background-color: rgb(233, 233, 233);
+body {
+    background-color: rgb(233, 233, 233);
     color: rgb(22, 22, 22);
     font-family: 'Raleway', sans-serif;
 }
-a { 
-    text-decoration: none;
 
+a {
+    text-decoration: none;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
     font-family: 'Baskervville', serif;
     font-weight: 400;
 }
+
 .container {
     width: 720px;
-    margin: 40px auto; 
-  }
+    margin: 40px auto;
+}
 
-  @media (max-width: 960px) {
+@media (max-width: 960px) {
     /* For a screen < 960px, this CSS will be read */
     .container {
-      width: 700px;
+        width: 700px;
     }
-  }
-  @media (max-width: 720px) {
+}
+
+@media (max-width: 720px) {
     /* For a screen < 720px, this CSS will be read */
     .container {
-      width: 500px;
+        width: 500px;
     }
-  }
-  @media (max-width: 540px) {
+}
+
+@media (max-width: 540px) {
     /* For a screen < 540px, this CSS will be read */
     .container {
-      width: 300px;
+        width: 300px;
     }
-  }
+}
+
 .card-white {
     background-color: rgb(255, 255, 255);
     color: rgb(20, 20, 20);
     padding: 30px;
-    text-align: center;                     
-    box-shadow: 0px 10px 5px rgba(0,0,0,.1);
+    text-align: center;
+    box-shadow: 0px 10px 5px rgba(0, 0, 0, .1);
     margin-bottom: 30px;
 }
-.card-white p{
+
+.card-white p {
     margin-top: 30px;
-    
 }
-.avatar{
+
+.avatar {
     width: 150px;
     height: 150px;
     border-radius: 150px;
     object-fit: cover;
-
 }
-.image-rec{
+
+.image-rec {
     width: 100%;
     height: 300px;
     object-fit: cover;
-
 }
 
 .btn-red {
     background-color: white;
     border: #c60000 1px solid;
     padding: 5px 10px;
-    color:#c60000;
-
-
+    color: #c60000;
 }
 
 .btn-red:hover {
-    color:black;
+    color: black;
     border: black 1px solid;
-
 }
+
 .list-inline {
-list-style: none;
-padding-left: 0;
-
+    list-style: none;
+    padding-left: 0;
 }
- 
-.list-inline li{
+
+.list-inline li {
     display: inline;
     padding: 10px;
 }
 
-.list-inline li i{
+.list-inline li i {
     font-size: 30px;
     color: rgb(71, 71, 71);
 }
 
-.list-inline li i:hover{
+.list-inline li i:hover {
     color: #c60000;
 }
 
-.p-quote{
+.p-quote {
     font-family: 'Ibarra Real Nova', serif;
     font-size: 30px;
     font-style: italic;
